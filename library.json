@@ -1,0 +1,23 @@
+{
+  "name": "CH32V003J4M6-WS2812B",
+  "version": "1.0.0",
+  "description": "A WS2812B RGB LED control library for CH32V003J4M6 microcontroller",
+  "keywords": "ch32v003, ws2812b, rgb, led, neopixel, ch32v003j4m6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shakir-abdo/CH32V003J4M6-WS2812B.git"
+  },
+  "authors": [
+    {
+      "name": "Shakir Abdo",
+      "email": "shicolare1@gmail.com",
+      "url": "https://github.com/shakir-abdo",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/shakir-abdo/CH32V003J4M6-WS2812B",
+  "frameworks": "ch32v003fun",
+  "platforms": "ch32v",
+  "headers": "rgbled.h"
+}
