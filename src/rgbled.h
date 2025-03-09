@@ -94,4 +94,11 @@ RGBLED_Color RGBLED_RGB(uint8_t r, uint8_t g, uint8_t b);
  */
 RGBLED_Color RGBLED_HSV(uint8_t hue, uint8_t sat, uint8_t val);
 
+/**
+ * @brief Get a color from RGB components
+ *
+ * @return led_buffer
+ */
+RGBLED_Color RGBLED_GetPixel(uint8_t index);
+
 #endif /* RGBLED_H */

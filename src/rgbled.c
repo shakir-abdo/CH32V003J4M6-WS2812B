@@ -201,3 +201,12 @@ RGBLED_Color RGBLED_HSV(uint8_t hue, uint8_t sat, uint8_t val) {
 
     return color;
 }
+// Get a color from RGB components
+RGBLED_Color RGBLED_GetPixel(uint8_t index) {
+    if (index < RGBLED_MAX_LEDS) {
+        return led_buffer[index];
+    }
+    // Return black if index is out of bounds
+    RGBLED_Color black = {0, 0, 0};
+    return black;
+}
